@@ -1,7 +1,6 @@
-package dao;
+package Service;
 
-import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 import pojo.Dept;
 
 import java.util.List;
@@ -9,12 +8,10 @@ import java.util.List;
 /**
  * @author yyx
  * @version 1.0
- * @date : 2022/9/12 19:45
+ * @date : 2022/9/12 19:57
  */
-@Mapper
-@Repository
-public interface DeptDao {
-
+@Service
+public interface DeptService {
     public boolean addDept(Dept dept);
 
     public Dept queryById(Long deptno);
