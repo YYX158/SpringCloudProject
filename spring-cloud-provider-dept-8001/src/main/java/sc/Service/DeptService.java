@@ -1,6 +1,5 @@
 package sc.Service;
 
-import org.springframework.stereotype.Service;
 import pojo.Dept;
 
 import java.util.List;
@@ -8,9 +7,8 @@ import java.util.List;
 /**
  * @author yyx
  * @version 1.0
- * @date : 2022/9/12 19:57
+ * @date : 2022/9/12 20:23
  */
-@Service
 public interface DeptService {
     public boolean addDept(Dept dept);
 
