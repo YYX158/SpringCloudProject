@@ -1,7 +1,7 @@
-package Service.impl;
+package sc.Service.impl;
 
-import Service.DeptService;
-import dao.DeptDao;
+import sc.Service.DeptService;
+import sc.dao.DeptDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import pojo.Dept;
 

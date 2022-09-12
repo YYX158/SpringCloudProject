@@ -1,4 +1,4 @@
-package Service;
+package sc.Service;
 
 import org.springframework.stereotype.Service;
 import pojo.Dept;

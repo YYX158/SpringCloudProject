@@ -1,8 +1,7 @@
-package Controller;
+package sc.Controller;
 
-import Service.DeptService;
+import sc.Service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

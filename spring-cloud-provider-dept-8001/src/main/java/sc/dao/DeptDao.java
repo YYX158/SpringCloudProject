@@ -1,4 +1,4 @@
-package dao;
+package sc.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
